@@ -11,6 +11,8 @@ source venv_flask/bin/activate
 python
 from BookModel import db
 db.create_all()
+from UserModel import db
+db.create_all()
 ```
 
 # Références
